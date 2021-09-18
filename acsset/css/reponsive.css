@@ -1,0 +1,23 @@
+@media (max-width : 740px){
+    .bg-music{
+        margin-top: 38%;
+    }
+    .bg{
+        overflow: hidden;
+    }
+    .btn{
+        font-size: 30px;
+        height: 80px;
+    }
+    .player{
+        width: 400px;
+        height: 760px;
+
+    }
+    .list-music {
+        width: 400px;
+    }
+    .ml5{
+        margin-top: 80px;
+    }
+}
