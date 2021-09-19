@@ -15,22 +15,22 @@ body{
 .ml5 {
     position: relative;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 30px;
     color: #fff;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 27%;
   }
   
-.ml5 .text-wrapper {
+.ml5.text-wrapper {
     position: relative;
     display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-    line-height: 1em;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 0.9px;
+    line-height: 16px;
   }
   
-.ml5 .line {
+.ml5.line {
     position: absolute;
     left: 0;
     top: 0;
@@ -42,16 +42,16 @@ body{
     transform-origin: 0.5 0;
   }
   
-.ml5 .ampersand {
+.ml5.ampersand {
     font-family: Baskerville, serif;
     font-style: italic;
     font-weight: 400;
-    width: 1em;
-    margin-right: -0.1em;
-    margin-left: -0.1em;
+    width: 16px;
+    margin-right: -0.1px;
+    margin-left: -0.1px;
   }
   
-.ml5 .letters {
+.ml5.letters {
     display: inline-block;
     opacity: 0;
     color: #fff;
@@ -72,8 +72,8 @@ body{
     margin: auto;
 }
 .player{
-    width:600px;
-    height: 800px;
+    width:500px;
+    height: 850px;
     position:absolute;
     top: 45%;
     left: 50%;
@@ -90,7 +90,7 @@ body{
 .top-icons{
     display: flex;
     justify-content: space-between;
-   margin: 20px 20px;
+   margin: 15px 20px;
 
 }
 .ti-headphone,
@@ -129,7 +129,7 @@ body{
 }
 .btn{
     position: relative;
-    font-size: 3rem;
+    font-size: 50px;
     text-align: center;
     margin: 21px auto;
     display: flex;
@@ -155,6 +155,9 @@ body{
     align-items: center;
     justify-content: center;
    
+}
+.bg-music{
+    margin-top: 13%;
 }
 .play {
     display: none;
@@ -198,12 +201,12 @@ body{
     margin-top: 40px;
 }
 .list-music{
-    width: 600px;
+    width: 500px;
     display: flex;
     padding: 10px 30px;
     background-color: rgb(255, 255, 255, 0.1);
     border-radius: 15px;
-   margin: 15px auto;  
+   margin: 10px auto;  
 }
 .img-music{
     height: 50px;
