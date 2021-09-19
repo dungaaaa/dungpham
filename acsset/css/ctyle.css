@@ -16,9 +16,11 @@ body{
     position: relative;
     font-weight: 300;
     font-size: 30px;
-    color: #fff;
+    color: rgba(245, 240, 240, 0.856);
     text-align: center;
-    margin-top: 27%;
+    margin-top: 15px;
+    font-weight: 50;
+   
   }
   
 .ml5.text-wrapper {
@@ -55,6 +57,7 @@ body{
     display: inline-block;
     opacity: 0;
     color: #fff;
+    
   }
 .img-thumb{
     width: 399px;
@@ -65,15 +68,15 @@ body{
     width: 100%;
 }
 .img{
-    max-width: 350px;
+    max-width:200px;
     display: flex;
     justify-content: center;  
-    height: 350px;
+    height: 200px;
     margin: auto;
 }
 .player{
-    width:500px;
-    height: 850px;
+    width: 450px;
+    height: 540px;
     position:absolute;
     top: 45%;
     left: 50%;
@@ -81,7 +84,7 @@ body{
     background: rgb(255, 255, 255, 0.1);
     border-radius: 15px;
     box-shadow:3px 3px 50px rgb(0, 0, 0 , 1) ,-3px -3px 50px rgba(0, 0, 0, 0.5);
-    
+   
 }
 .img-center{
     border-radius: 50%;
@@ -90,7 +93,7 @@ body{
 .top-icons{
     display: flex;
     justify-content: space-between;
-   margin: 15px 20px;
+   margin: 6px 20px;
 
 }
 .ti-headphone,
@@ -113,7 +116,7 @@ body{
 .a-href,
 .a-hreff{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px 10px;
     color: #fff;
 }
@@ -129,13 +132,13 @@ body{
 }
 .btn{
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     margin: 21px auto;
     display: flex;
     justify-content: center;
     box-shadow:3px 3px 50px rgb(0, 0, 0 , 1) ,-3px -3px 50px rgba(0, 0, 0, 0.5);
-    height: 69px;
+    height: 50px;
     border-radius: 15px;
     z-index: 1;
     backdrop-filter: blur(15px);
@@ -143,11 +146,11 @@ body{
 .ti-reload,
 .ti-control-shuffle{
     color:slategray;
-    line-height: 69px;
+    line-height: 50px;
 }
 .icon-bg{
     border: 2px solid #fff;
-    width: 86px;  
+    width: 70px;  
     border-radius: 50%;
     font-size: 40px;
     color: #fff;
@@ -156,9 +159,7 @@ body{
     justify-content: center;
    
 }
-.bg-music{
-    margin-top: 13%;
-}
+
 .play {
     display: none;
 }
@@ -179,7 +180,7 @@ body{
 .ti-control-backward,
 .ti-control-forward{
     padding: 0 30px;
-    line-height: 69px;
+    line-height: 50px;
 }
 .ti-control-backward:hover,
 .ti-control-pause:hover,
@@ -201,9 +202,9 @@ body{
     margin-top: 40px;
 }
 .list-music{
-    width: 500px;
+    width: 450px;
     display: flex;
-    padding: 10px 30px;
+    padding: 0px 30px;
     background-color: rgb(255, 255, 255, 0.1);
     border-radius: 15px;
    margin: 10px auto;  
@@ -212,13 +213,17 @@ body{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    margin-top: 8px;
 }
 .text-h1{
+   
     flex: 1;
-    margin-left: 20px;
+   font-weight: 200;
+   margin-top: 4px;
+   margin-left: 15px;
 }
 .active{
-    color: red;
+   color:rgb(14, 12, 12) ;
 }
 .background{
     backdrop-filter: brightness(3.5);

@@ -1,7 +1,4 @@
 @media (max-width : 740px){
-    .bg-music{
-        margin-top: 38%;
-    }
     .bg{
         overflow: hidden;
     }
@@ -11,13 +8,20 @@
     }
     .player{
         width: 400px;
-        height: 760px;
+        height: 575px;
 
     }
     .list-music {
         width: 400px;
     }
     .ml5{
-        margin-top: 80px;
+        margin-top: 20px;
     }
+    .ti-reload,
+    .ti-control-shuffle,
+    .ti-control-backward,
+    .ti-control-forward{
+    
+    line-height: 80px;
+}
 }
